@@ -55,7 +55,7 @@ img {
     border-bottom: 5px double red;
     padding: 10px;
     font-size: 12px;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5);
     text-align-last: center;
 }
 
@@ -72,7 +72,8 @@ ol {
 }
 
 ul li,
-ol li {
+ol li,
+ul li a {
     background: rgba(0, 0, 0, 0.3);
     padding: 10px;
     margin-left: 20px;
