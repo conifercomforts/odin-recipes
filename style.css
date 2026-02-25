@@ -1,0 +1,93 @@
+* {
+    color: red;
+    background-image: url(images/bg_01.png);
+
+    background-repeat: round;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: cornsilk;
+    max-width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    text-shadow: 5px 5px blue;
+    border: 10px solid transparent;
+    border-image: url(images/horizontal_squiggle.jpg) 50% 30% round;
+    padding: 60px;
+}
+
+h1 {
+    border: 5px solid black;
+}
+
+h2,
+h4 {
+    text-align: center;
+    border-bottom: 2px dotted rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.3);
+    text-shadow: 5px 5px black;
+}
+
+h5 {
+    text-align: left;
+    color: white;
+    border-bottom: 2px dashed white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.frame {
+    outline: red ridge 10px;
+    border: 2px solid black;
+}
+
+.info {
+    margin: 10px auto;
+    border-left: 10px solid red;
+    border-bottom: 5px double red;
+    padding: 10px;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.3);
+    text-align-last: center;
+}
+
+.info-footnote {
+    font-size: 8px;
+    color: white;
+    margin-top: -30px;
+}
+
+ul,
+ol {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+ul li,
+ol li {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.bottom-text {
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    text-align: right;
+}
+
+footer a {
+    background: rgba(255, 255, 255, 0.3);
+}
